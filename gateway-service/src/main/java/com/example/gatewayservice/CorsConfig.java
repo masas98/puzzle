@@ -3,11 +3,13 @@ package com.example.gatewayservice;
 import io.netty.resolver.DefaultAddressResolverGroup;
 import java.util.Arrays;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 import reactor.netty.http.client.HttpClient;
 
+@Configuration
 public class CorsConfig extends CorsConfiguration {
 
   @Bean
