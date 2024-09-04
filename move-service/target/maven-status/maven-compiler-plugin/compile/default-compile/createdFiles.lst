@@ -1,0 +1,8 @@
+com\example\moveservice\controller\MoveController.class
+com\example\moveservice\data\MoveDirection.class
+com\example\moveservice\service\MoveService.class
+com\example\moveservice\data\Game.class
+com\example\moveservice\data\Player.class
+com\example\moveservice\client\GameServiceClient.class
+com\example\moveservice\data\MoveRequest.class
+com\example\moveservice\MoveServiceApplication.class
