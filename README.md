@@ -11,8 +11,6 @@ This is just for learning purposes on how to create microservices using springBo
 * Gateway-service - handles, that all other services could be reached on the same port.
 * Name-service - handles the services names, so it will know which service is calling which service.
 
-  
-*(Should also create Validation-service or should validate data inside services).* 
 
 ## Running on your machine
 
